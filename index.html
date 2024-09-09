@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js" defer></script>
+</head>
+<body>
+    <nav id="sidebar">
+        <ul>
+            <li>
+                <button id="toggle-btn" onclick=toggleSideBar() >close</button>
+            </li>
+            <li class="active">
+                <a href="index.html">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li>
+                <a href="dashboard.html">
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <button onclick=toggleSubMenu(this) class="dropdown-btn">
+                    <span>create</span>
+                </button>
+                <ul class="sub-menu">
+                    <div>
+                        <li>
+                            <a href="">folder</a>
+                        </li>
+                        <li>
+                            <a href="">document</a>
+                        </li>
+                        <li>
+                            <a href="">project</a>
+                        </li>
+                    </div>
+                </ul>
+            </li>
+
+            <li>
+                <a href="calendar.html">
+                    <span>Calendar</span>
+                </a>
+            </li>
+            <li>
+                <a href="profile.html">
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <label for="darkmode">
+                    <input type="checkbox" id="darkmode" class="darkmode">
+                    <b>🌞</b>
+                </label>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <div class="container">
+            <h2>Hello world</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quas totam voluptate sit at voluptatum culpa, laborum dignissimos nobis amet inventore perspiciatis, veniam consectetur, unde molestiae ratione odit! Accusantium, blanditiis!</p>
+        </div>
+        <div class="container">
+            <h2>example heading</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia facere saepe dolor nulla error commodi minus. Impedit saepe commodi voluptates in blanditiis, quo sit aperiam sunt deleniti praesentium repellat modi?</p>
+        </div>
+        <div class="container">
+            <h2>lorem ipsum</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro architecto excepturi provident ut possimus similique alias esse voluptatem inventore atque doloremque sed natus, vel quisquam est nesciunt soluta ea impedit.</p>
+        </div>
+        
+    </main>
+</body>
+</html>
